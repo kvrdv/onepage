@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Raleway';
-  src: url('/src/fonts/Raleway-VariableFont_wght.ttf') format('opentype');
+  src: url('../src/fonts/raleway/Raleway-VariableFont_wght.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'Raleway-Italic';
-  src: url('/src/fonts/Raleway-Italic-VariableFont_wght.ttf') format('opentype');
+  src: url('../src/fonts/raleway/Raleway-Italic-VariableFont_wght.ttf') format('opentype');
 }
 
 body {
