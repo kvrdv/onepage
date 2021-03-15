@@ -1,9 +1,8 @@
-# Hi there 👋
-
 ## KVRDV home page
 
 ### Contact:
 [Telegram](tg://resolve?domain=kvrdv "Telegram")
+
 [Mail](mailto:s.kovardaev@gmail.com "Mail")
 
 ### Logo:
