@@ -1,8 +1,0 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="32" cy="32" r="32" fill="#E3E6EB"/>
-<circle cx="32" cy="32" r="4" transform="rotate(-45 32 32)" fill="#001833"/>
-<circle cx="37.6569" cy="37.6569" r="4" transform="rotate(-135 37.6569 37.6569)" fill="#001833"/>
-<circle cx="26.3431" cy="26.3431" r="4" transform="rotate(-135 26.3431 26.3431)" fill="#001833"/>
-<circle cx="26.3431" cy="37.6569" r="4" transform="rotate(-135 26.3431 37.6569)" fill="#001833"/>
-<circle cx="37.6569" cy="26.3431" r="4" transform="rotate(-135 37.6569 26.3431)" fill="#001833"/>
-</svg>
