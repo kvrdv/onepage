@@ -65,6 +65,10 @@ button {
   margin: 0 0 32px 32px;
 }
 
+.content:last-child {
+  margin: 0 0 8px 32px;
+}
+
 .content-header {
   overflow: hidden;
   display: flex;
@@ -157,6 +161,17 @@ button {
   line-height: 25px;
   color: #e3e6eb;
   margin: auto 0 auto 8px;
+}
+
+.footer-text {
+font-family: Raleway-Italic;
+font-weight: 900;
+font-size: 9px;
+line-height: 11px;
+text-align: center;
+letter-spacing: -0.135em;
+color: #e3e6eb;
+margin: 64px 0 0 -32px;
 }
 
 .hidden {
