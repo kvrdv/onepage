@@ -11,6 +11,7 @@ const buttonBack = document.querySelectorAll('.button-back');
 // Показать все проекты:
 buttonMore.forEach(function (item) {
   item.addEventListener('click', (event) => {
+    event.preventDefault();
     for (let i = 3; i < projects.length; i++) {
       projects[i].classList.remove('hidden');
     }
@@ -23,6 +24,7 @@ buttonMore.forEach(function (item) {
 // Свернуть все проекты:
 buttonLess.forEach(function (item) {
   item.addEventListener('click', (event) => {
+    event.preventDefault();
     for (let i = 3; i < projects.length; i++) {
       projects[i].classList.add('hidden');
     }
@@ -34,21 +36,21 @@ buttonLess.forEach(function (item) {
 
 // Открыть подробную информауию о проекте, по клику на картинку:
 projectAboutOpenButton.forEach(function (item) {
-  item.addEventListener('click', (event) => {   
+  item.addEventListener('click', (event) => { 
+    event.preventDefault();    
     item.parentElement.lastElementChild.classList.remove('hidden');
-    // document.body.style.overflow = 'hidden';
-    bodyMask.classList.remove('hidden');    
-    event.preventDefault();
+    document.body.style.overflow = 'hidden';
+    bodyMask.classList.remove('hidden');   
   });   
 });
 
 // Закрыть подробную информацию о проекте по клику на кнопку:
 buttonBack.forEach(function (item) {
-  item.addEventListener('click', (event) => {    
+  item.addEventListener('click', (event) => {
+    event.preventDefault();    
     item.parentElement.parentElement.classList.add('hidden');
-    // document.body.style.overflow = 'auto';
+    document.body.style.overflow = 'auto';
     bodyMask.classList.add('hidden');
-    event.preventDefault();
   });   
 });
 

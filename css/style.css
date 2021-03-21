@@ -129,7 +129,9 @@ button {
 }
 
 .project-about {
-  position: absolute;
+  position: fixed;
+  top: 128px;
+  height: 100vh;
   z-index: 2;
   background: rgba(0, 24, 51);
   border-radius: 17px;
