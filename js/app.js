@@ -4,8 +4,7 @@ const buttonMore = document.querySelectorAll('.button-more');
 const projects = document.querySelectorAll('.project');
 
 // для Скрыть/показать описание проекта:
-const projectImageLink = document.querySelectorAll('.project-image-link');
-const projectText = document.querySelectorAll('.project-text');
+const projectAboutOpenButton = document.querySelectorAll('.project-about-open-button');
 const bodyMask = document.querySelector('.body-mask');
 const buttonBack = document.querySelectorAll('.button-back');
 
@@ -34,21 +33,11 @@ buttonLess.forEach(function (item) {
 });
 
 // Открыть подробную информауию о проекте, по клику на картинку:
-projectImageLink.forEach(function (item) {
-  item.addEventListener('click', (event) => {
+projectAboutOpenButton.forEach(function (item) {
+  item.addEventListener('click', (event) => {   
     item.parentElement.lastElementChild.classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
-    bodyMask.classList.remove('hidden');
-    event.preventDefault();
-  });   
-});
-
-// Открыть подробную информауию о проекте, по клику на его описание:
-projectText.forEach(function (item) {
-  item.addEventListener('click', (event) => {
-    item.parentElement.lastElementChild.classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
-    bodyMask.classList.remove('hidden');
+    // document.body.style.overflow = 'hidden';
+    bodyMask.classList.remove('hidden');    
     event.preventDefault();
   });   
 });
@@ -57,7 +46,7 @@ projectText.forEach(function (item) {
 buttonBack.forEach(function (item) {
   item.addEventListener('click', (event) => {    
     item.parentElement.parentElement.classList.add('hidden');
-    document.body.style.overflow = 'auto';
+    // document.body.style.overflow = 'auto';
     bodyMask.classList.add('hidden');
     event.preventDefault();
   });   
