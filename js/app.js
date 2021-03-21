@@ -40,7 +40,6 @@ projectAboutOpenButton.forEach(function (item) {
     event.preventDefault();    
     item.parentElement.lastElementChild.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
-    document.html.style.overflow = 'hidden';
     bodyMask.classList.remove('hidden');   
   });   
 });
@@ -51,7 +50,6 @@ buttonBack.forEach(function (item) {
     event.preventDefault();    
     item.parentElement.parentElement.classList.add('hidden');
     document.body.style.overflow = 'auto';
-    document.html.style.overflow = 'auto';
     bodyMask.classList.add('hidden');
   });   
 });
