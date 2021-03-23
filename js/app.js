@@ -39,9 +39,7 @@ projectAboutOpenButton.forEach(function (item) {
   item.addEventListener('click', (event) => { 
     event.preventDefault();    
     item.parentElement.lastElementChild.classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
-    document.body.style.zIndex =-1;
-    bodyMask.classList.remove('hidden');   
+    // bodyMask.classList.remove('hidden');   
   });   
 });
 
@@ -50,9 +48,7 @@ buttonBack.forEach(function (item) {
   item.addEventListener('click', (event) => {
     event.preventDefault();    
     item.parentElement.parentElement.classList.add('hidden');
-    document.body.style.overflow = 'auto';
-    document.body.style.zIndex =0;
-    bodyMask.classList.add('hidden');
+    // bodyMask.classList.add('hidden');
   });   
 });
 

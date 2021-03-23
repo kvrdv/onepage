@@ -131,15 +131,15 @@ button {
 }
 
 .project-about {
-  position: fixed;
-  top: 15vh;
-  height: 85vh;
-  z-index: 2;
+  position: absolute;
+  /* top: 15vh; */
+  /* height: 85vh; */
+  /* z-index: 2; */
   background: rgba(0, 24, 51);
   border-radius: 17px;
   box-shadow: 5px 1px 20px 1px;
   padding: 32px 0 64px 32px;
-  margin: 0 0 0 -32px;
+  margin: auto 0 auto -32px;
 }
 
 .project-about-button {
