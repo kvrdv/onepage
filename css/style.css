@@ -10,11 +10,14 @@
 
 body {
   background: #001833;
+  height: 100vh;
+  position: relative;
 }
 
-.body-fix {
-  touch-action: none;
-  -ms-touch-action: none;
+.body-wrapper {
+  overflow: auto;
+  height: 100vh;
+  position: relative;
 }
 
 /* Убираем внутренние отступы */
