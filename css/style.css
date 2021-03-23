@@ -10,8 +10,7 @@
 
 body {
   background: #001833;
-  overflow: auto;
-  position: relative;
+  /* position: relative; */
   height: 100%;
 }
 
