@@ -146,7 +146,8 @@ button {
   box-shadow: 5px 1px 20px 1px;
   padding: 32px 0 64px 32px;
   margin: 0 0 0 -32px;
-  -webkit-overflow-scrolling: touch;
+  touch-action: none;
+  -ms-touch-action: none;
 }
 
 .project-about-button {
