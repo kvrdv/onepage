@@ -14,6 +14,11 @@ body {
   overflow: auto;
 }
 
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 /* Убираем внутренние отступы */
 ul[class],
 ol[class] {
@@ -146,8 +151,6 @@ button {
   box-shadow: 5px 1px 20px 1px;
   padding: 32px 0 64px 32px;
   margin: 0 0 0 -32px;
-  touch-action: none;
-  -ms-touch-action: none;
 }
 
 .project-about-button {
