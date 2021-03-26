@@ -41,6 +41,7 @@ projectAboutOpenButton.forEach(function (item) {
     item.parentElement.lastElementChild.classList.remove('hidden');
     bodyMask.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
     document.body.style.zIndex = -1;
   });
 });
@@ -52,6 +53,7 @@ buttonBack.forEach(function (item) {
     item.parentElement.parentElement.classList.add('hidden');
     bodyMask.classList.add('hidden');
     document.body.style.overflow = 'auto';
+    document.body.style.position = 'relative';
     document.body.style.zIndex = 0;
   });
 });
