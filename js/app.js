@@ -38,10 +38,10 @@ buttonLess.forEach(function (item) {
 projectAboutOpenButton.forEach(function (item) {
   item.addEventListener('click', (event) => {
     event.preventDefault();
-    item.parentElement.lastElementChild.classList.remove('hidden');
+    console.log(item.parentElement.parentElement.childNodes[3]);
+    item.parentElement.parentElement.childNodes[3].classList.remove('hidden');
+    // item.parentElement.lastElementChild.classList.remove('hidden');
     bodyMask.classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
-    document.body.style.position = 'fixed';
     document.body.style.zIndex = -1;
   });
 });
@@ -52,8 +52,6 @@ buttonBack.forEach(function (item) {
     event.preventDefault();
     item.parentElement.parentElement.classList.add('hidden');
     bodyMask.classList.add('hidden');
-    document.body.style.overflow = 'auto';
-    document.body.style.position = 'relative';
     document.body.style.zIndex = 0;
   });
 });
