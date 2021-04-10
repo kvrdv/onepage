@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #001833;
+  background-color: #e3e6eb;
   position: relative;
   overflow: auto;
 }
@@ -64,7 +64,7 @@ button {
 .page-header {
   display: flex;
   width: 100vw;
-  margin: 0 auto 64px auto;
+  margin: 0 auto 0 auto;
 }
 
 .main-content {
@@ -247,16 +247,6 @@ button {
   display: none;
 }
 
-/* @media (min-width: 499px) and (max-width: 1024px) {
-  .main-content {
-    max-width: 650px;
-  }
-
-  .project-about {
-    max-width: 650px;
-  }
-
-  .footer {
-    max-width: 650px;
-  }
-} */
+@media (min-width: 444px) and (max-width: 1024px) {
+  
+}
