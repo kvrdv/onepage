@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #001833;
+  background: #e3e6eb;
   position: relative;
   overflow: auto;
 }
@@ -40,12 +40,12 @@ dd {
 
 a {
   text-decoration: none;
-  color: #e3e6eb;
+  /* color: #001833; */
 }
 
 a:visited {
   text-decoration: none;
-  color: #e3e6eb;
+  /* color: #001833; */
 }
 
 button {
@@ -57,21 +57,12 @@ button {
   cursor: pointer;
 }
 
-.body-mask {
-  width: 100vw;
-  height: 1000vh;
-  position: fixed;
-  z-index: 1;
-  background: rgba(0, 24, 51, 0.99);
-}
-
 .page-header {
   width: 100vw;
   margin: 0 0 64px 0;
 }
 
 .main-content {
-  /* max-width: 568px; */
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -92,7 +83,7 @@ button {
   font-weight: 440;
   font-size: 40px;
   line-height: 47px;
-  color: #e3e6eb;
+  color: #001833;
 }
 
 .content-header-line-wrapper {
@@ -101,7 +92,7 @@ button {
 }
 
 .content-header-line {
-  color: #e3e6eb;
+  color: #001833;
 }
 
 .content-text {
@@ -109,7 +100,7 @@ button {
   font-weight: 410;
   font-size: 21px;
   line-height: 25px;
-  color: #e3e6eb;
+  color: #001833;
   margin: 8px 24px 0 0;
 }
 
@@ -119,7 +110,6 @@ button {
 
 .project-header {
   display: flex;
-  /* flex-direction: column; */
   margin: 16px 12px 0 0;
 }
 
@@ -133,18 +123,14 @@ button {
   font-weight: 410;
   font-size: 21px;
   line-height: 25px;
-  color: #e3e6eb;
+  color: #001833;
   margin: auto 0 auto 16px;
 }
 
 .project-about {
-  position: absolute;  
-  z-index: 2;
-  background: rgba(0, 24, 51);
-  /* border-radius: 17px; */
-  /* box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.25); */
-  padding: 16px 0 32px 32px;
-  margin: -85px 0 0 -32px;
+  background: #001833;
+  margin: 10px 0 0 -32px;
+  padding: 16px 0 16px 32px;
 }
 
 .project-about-button {
@@ -160,25 +146,16 @@ button {
 
 .project-about-button-text {
   font-family: Raleway;
-  font-weight: 410;
-  font-size: 21px;
-  line-height: 25px;
-  color: #e3e6eb;
-  margin: auto 0 auto 16px;
-  cursor: pointer;
-}
-
-.project-about-header {
-  display: flex;
-}
-
-.project-about-name {
-  font-family: Raleway;
   font-weight: 440;
   font-size: 40px;
   line-height: 47px;
   color: #e3e6eb;
   margin: auto 0 auto 16px;
+  cursor: pointer;
+}
+
+.project-about-button-label {
+  margin: -12px 0 0 6px;
 }
 
 .project-about-text {
@@ -191,7 +168,7 @@ button {
 }
 
 .project-about-contacts {
-  margin: 16px 0 0 0;
+  margin: 24px 0 0 0;
 }
 
 .project-about-contact {
@@ -232,13 +209,13 @@ button {
   font-weight: 410;
   font-size: 21px;
   line-height: 25px;
-  color: #e3e6eb;
+  color: #001833;
   margin: auto 0 auto 16px;
   cursor: pointer;
 }
 
 .footer {
-  margin: 0 auto 32px auto;
+  margin: 0 0 32px 0;
   max-width: 568px;
   display: flex;
   flex-direction: column;
@@ -259,7 +236,7 @@ button {
   font-weight: 410;
   font-size: 21px;
   line-height: 25px;
-  color: #e3e6eb;
+  color: #001833;
   margin: auto 0 auto 8px;
 }
 

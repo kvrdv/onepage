@@ -5,8 +5,9 @@ const projects = document.querySelectorAll('.project');
 
 // для Скрыть/показать описание проекта:
 const projectAboutOpenButton = document.querySelectorAll('.project-about-open-button');
-const bodyMask = document.querySelector('.body-mask');
 const buttonBack = document.querySelectorAll('.button-back');
+const projectAbout = document.querySelectorAll('.project-about');
+const projectHeader = document.querySelectorAll('.project-header');
 
 // Показать все проекты:
 buttonMore.forEach(function (item) {
@@ -15,7 +16,6 @@ buttonMore.forEach(function (item) {
     for (let i = 3; i < projects.length; i++) {
       projects[i].classList.remove('hidden');
     }
-
     item.parentElement.classList.add('hidden');
     buttonLess[0].parentElement.classList.remove('hidden');
   });
@@ -28,7 +28,6 @@ buttonLess.forEach(function (item) {
     for (let i = 3; i < projects.length; i++) {
       projects[i].classList.add('hidden');
     }
-
     item.parentElement.classList.add('hidden');
     buttonMore[0].parentElement.classList.remove('hidden');
   });
@@ -38,11 +37,10 @@ buttonLess.forEach(function (item) {
 projectAboutOpenButton.forEach(function (item) {
   item.addEventListener('click', (event) => {
     event.preventDefault();
-    console.log(item.parentElement.parentElement.childNodes[3]);
+    projectAbout.forEach((element) => element.classList.add('hidden'));
+    projectHeader.forEach((element) => element.classList.remove('hidden'));
     item.parentElement.parentElement.childNodes[3].classList.remove('hidden');
-    // item.parentElement.lastElementChild.classList.remove('hidden');
-    bodyMask.classList.remove('hidden');
-    document.body.style.zIndex = -1;
+    item.parentElement.classList.add('hidden');
   });
 });
 
@@ -50,8 +48,7 @@ projectAboutOpenButton.forEach(function (item) {
 buttonBack.forEach(function (item) {
   item.addEventListener('click', (event) => {
     event.preventDefault();
+    item.parentElement.parentElement.parentElement.childNodes[1].classList.remove('hidden');
     item.parentElement.parentElement.classList.add('hidden');
-    bodyMask.classList.add('hidden');
-    document.body.style.zIndex = 0;
   });
 });
