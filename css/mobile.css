@@ -11,7 +11,7 @@
 body {
   background-color: #e3e6eb;
   position: relative;
-  overflow: auto;
+  overflow: auto;  
 }
 
 /* Убираем внутренние отступы */
@@ -91,6 +91,7 @@ button {
 }
 
 .content-header-line-wrapper {
+  size: 1px;
   flex: 0 0 100%;
   margin: 18px 0 0 16px;
 }
@@ -221,6 +222,7 @@ button {
 .footer {
   display: flex;
   flex-direction: column;
+  padding: 0 0 16px 0;
 }
 
 .contact {
@@ -245,8 +247,4 @@ button {
 .hidden {
   visibility: hidden;
   display: none;
-}
-
-@media (min-width: 444px) and (max-width: 1024px) {
-  
 }
