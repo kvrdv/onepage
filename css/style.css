@@ -139,7 +139,7 @@ button {
 .project-about {
   background: #001833;
   margin: 0.6rem 0 0 -2rem;
-  padding: 1rem 0 1rem 2rem;
+  padding: 1rem 0 2rem 2rem;
 }
 
 .project-about-button {
@@ -164,6 +164,7 @@ button {
 }
 
 .project-about-button-label {
+  width: 1.7rem;
   margin: -0.75rem 0 0 0.4rem;
 }
 
@@ -262,5 +263,11 @@ button {
 @media (min-width: 620px) and (min-height: 475px) {
   html {
     font-size: 25px;
+  }
+}
+
+@media (min-width: 1152px) {
+  .project-about {
+    border-radius: 17px;
   }
 }
