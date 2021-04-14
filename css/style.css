@@ -8,10 +8,14 @@
   src: url('../src/fonts/raleway/Raleway-Italic-VariableFont_wght.ttf') format('opentype');
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: #e3e6eb;
   position: relative;
-  overflow: auto;  
+  overflow: auto;
 }
 
 /* Убираем внутренние отступы */
@@ -63,7 +67,7 @@ button {
 
 .page-header {
   display: flex;
-  width: 100vw;
+  width: 100%;
   margin: 0 auto 0 auto;
 }
 
@@ -74,7 +78,7 @@ button {
 }
 
 .content {
-  margin: 0 0 32px 32px;
+  margin: 0 0 2rem 2rem;
 }
 
 .content-header {
@@ -85,15 +89,15 @@ button {
 .content-header-text {
   font-family: Raleway;
   font-weight: 440;
-  font-size: 40px;
-  line-height: 47px;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
   color: #001833;
 }
 
 .content-header-line-wrapper {
   size: 1px;
   flex: 0 0 100%;
-  margin: 18px 0 0 16px;
+  margin: 1.1rem 0 0 1rem;
 }
 
 .content-header-line {
@@ -103,77 +107,77 @@ button {
 .content-text {
   font-family: Raleway;
   font-weight: 410;
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
   color: #001833;
-  margin: 8px 24px 0 0;
+  margin: 0.5rem 1.5rem 0 0;
 }
 
 .projects {
-  margin: 16px 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 .project-header {
   display: flex;
-  margin: 16px 12px 0 0;
+  margin: 1rem 0.75rem 0 0;
 }
 
 .project-image {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
 }
 
 .project-text {
   font-family: Raleway;
   font-weight: 410;
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
   color: #001833;
-  margin: auto 0 auto 16px;
+  margin: auto 0 auto 1rem;
 }
 
 .project-about {
   background: #001833;
-  margin: 10px 0 0 -32px;
-  padding: 16px 0 16px 32px;
+  margin: 0.6rem 0 0 -2rem;
+  padding: 1rem 0 1rem 2rem;
 }
 
 .project-about-button {
   display: flex;
-  margin: 0 0 16px 0;
+  margin: 0 0 1rem 0;
 }
 
 .project-about-button-image {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
   cursor: pointer;
 }
 
 .project-about-button-text {
   font-family: Raleway;
   font-weight: 440;
-  font-size: 40px;
-  line-height: 47px;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
   color: #e3e6eb;
-  margin: auto 0 auto 16px;
+  margin: auto 0 auto 1rem;
   cursor: pointer;
 }
 
 .project-about-button-label {
-  margin: -12px 0 0 6px;
+  margin: -0.75rem 0 0 0.4rem;
 }
 
 .project-about-text {
   font-family: Raleway;
   font-weight: 410;
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
   color: #e3e6eb;
-  margin: 16px 24px 0 0;
+  margin: 1rem 1.5rem 0 0;
 }
 
 .project-about-contacts {
-  margin: 24px 0 0 0;
+  margin: 1.5rem 0 0 0;
 }
 
 .project-about-contact {
@@ -181,70 +185,82 @@ button {
 }
 
 .project-about-contact-logo {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
 }
 
 .project-about-contact:first-child {
-  margin: 0 0 12px 0;
+  margin: 0 0 0.75rem 0;
 }
 
 .project-about-contact-text {
   font-family: Raleway;
   font-weight: 410;
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
   color: #e3e6eb;
-  margin: auto 0 auto 8px;
+  margin: auto 0 auto 0.5rem;
 }
 
 .button {
   display: flex;
-  margin: 16px 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 .button-image {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
   cursor: pointer;
 }
 
 .button-text {
   font-family: Raleway;
   font-weight: 410;
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
   color: #001833;
-  margin: auto 0 auto 16px;
+  margin: auto 0 auto 1rem;
   cursor: pointer;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
-  padding: 0 0 16px 0;
+  padding: 0 0 1rem 0;
 }
 
 .contact {
   display: flex;
-  margin: 12px 0 0 0;
+  margin: 0.75rem 0 0 0;
 }
 
 .contact-logo {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
 }
 
 .contact-text {
   font-family: Raleway;
   font-weight: 410;
-  font-size: 21px;
-  line-height: 25px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
   color: #001833;
-  margin: auto 0 auto 8px;
+  margin: auto 0 auto 0.5rem;
 }
 
 .hidden {
   visibility: hidden;
   display: none;
+}
+
+@media (min-width: 475px) and (max-width: 619px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 620px) {
+  html {
+    font-size: 25px;
+  }
 }
