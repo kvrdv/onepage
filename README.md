@@ -2,8 +2,6 @@
 
 Welcome to home page of web developer, former project manager and a bit UX/UI designer.
 
----
-
 #### Some of my projects:
 
 - [Unqwertier](https://github.com/kvrdv/unqwertier)
@@ -11,6 +9,8 @@ Welcome to home page of web developer, former project manager and a bit UX/UI de
 - [Rodrigo](https://github.com/kvrdv/voice-assistant)
 - [Noemi](https://github.com/kvrdv/demo-noemi)
 - [Surface](https://github.com/kvrdv/demo-surface)
+
+---
 
 I'm open for full-time and project job offers.
 
