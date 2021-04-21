@@ -1,7 +1,6 @@
 ## Hi there 👋
 
-Welcome to home page of web developer, former project manager and a bit UX/UI designer.  
-
+Welcome to home page of web developer, former project manager and a bit UX/UI designer.
 
 ---
 
@@ -13,16 +12,12 @@ Welcome to home page of web developer, former project manager and a bit UX/UI de
 - [Noemi](https://github.com/kvrdv/demo-noemi)
 - [Surface](https://github.com/kvrdv/demo-surface)
 
----
-
 I'm open for full-time and project job offers.
-
----
 
 #### Please contact:
 
 - [Mail](mailto:s.kovardaev@gmail.com)
-- [Telegram](tg://resolve?domain=kvrdv)
+- [Telegram](t-do.ru/kvrdv)
 - [Instagram](https://www.instagram.com/kvrdv/)
 
 ---
