@@ -28,6 +28,12 @@ I'm open for full-time and project job offers.
 
 ---
 
+#### Logo:
+
+![Design kit](./src/images/kvrdv.svg)
+
+---
+
 #### Font:
 
 [Google Fonts - Raleway](https://fonts.google.com/specimen/Raleway 'Google Fonts - Raleway')
