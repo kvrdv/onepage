@@ -30,7 +30,7 @@ I'm open for full-time and project job offers.
 
 #### Logo:
 
-![Logo](./src/favicon/android-chrome-512x512.png)
+![Logo](./src/favicon/mstile-150x150.png)
 
 ---
 
