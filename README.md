@@ -17,7 +17,7 @@ I'm open for full-time and project job offers.
 #### Please contact:
 
 - [Mail: s.kovardaev@gmail.com](mailto:s.kovardaev@gmail.com)
-- [Telegram](t.me/kvrdv)
+- [Telegram](https://t.me/kvrdv)
 - [Instagram](https://www.instagram.com/kvrdv/)
 
 ---
