@@ -6,7 +6,7 @@ Welcome to home page of web developer, former project manager and a bit UX/UI de
 
 - [Unqwertier](https://github.com/kvrdv/unqwertier)
 - [Sneckshop](https://github.com/kvrdv/sneckshop)
-- [Rodrigo](https://github.com/kvrdv/voice-assistant)
+- [Ripley](https://github.com/kvrdv/ripley)
 - [Noemi](https://github.com/kvrdv/demo-noemi)
 - [Surface](https://github.com/kvrdv/demo-surface)
 
