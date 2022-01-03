@@ -1,6 +1,6 @@
 ## onepage
 
-### Adaptive portfolio demo website sample 
+### Adaptive portfolio page
 
 [Visit page](https://kvrdv.github.io/onepage)
 
